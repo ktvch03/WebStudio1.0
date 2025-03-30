@@ -5,8 +5,14 @@
     --text-color: #212121;
     --light-text-color: #ffffff;
 }
+body{
+    font-family: "Roboto";
+}
 .header {
     background-color: var(--light-color);
+}
+.WebStudio{
+    font-family: "Raleway";
 }
 .navigation {
     color: var(--text-color);
@@ -17,6 +23,9 @@
 .section-1 {
      background-color: var(--dark-color);
     color: var(--light-text-color);
+}
+.section-1 > h1{
+    font-family: "Roboto";
 }
 .button {
      background-color: var(--button-color);
