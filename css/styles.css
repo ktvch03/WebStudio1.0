@@ -5,22 +5,23 @@
     --text-color: #212121;
     --light-text-color: #ffffff;
 }
-body{
-    font-family: "Roboto";
-}
 .header {
+    font-family: "Roboto";
     background-color: var(--light-color);
 }
 .WebStudio{
     font-family: "Raleway";
 }
 .navigation {
+    font-family: "Roboto";
     color: var(--text-color);
 }
 .navigation2 {
+    font-family: "Roboto";
     color: var(--button-color);
 }
 .section-1 {
+    font-family: "Roboto";
      background-color: var(--dark-color);
     color: var(--light-text-color);
 }
@@ -28,25 +29,31 @@ body{
     font-family: "Roboto";
 }
 .button {
+    font-family: "Roboto";
      background-color: var(--button-color);
     color: var(--light-text-color);
 }
 .section-4 {
+    font-family: "Roboto";
     background-color: var(--light-color);
     color: var(--text-color);
 }
 .section-2 {
+    font-family: "Roboto";
     background-color: var(--light-color);
     color: var(--text-color);
 }
 .section-3 {
+    font-family: "Roboto";
      background-color: var(--light-color);
     color: var(--text-color);
 }
 .footer {
+    font-family: "Roboto";
     background-color: var(--dark-color);
     color: var(--light-text-color);
 }
 .list {
+    font-family: "Roboto";
     color: var(--light-text-color);
 }
