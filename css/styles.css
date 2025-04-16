@@ -13,6 +13,13 @@ body {
     letter-spacing: 0.02em;
     background-color: var(--light-text-color);
 }
+.container{
+width: 1200px;
+padding: 0 15px;
+margin: 0 auto;
+outline: solid orange;
+box-sizing: border-box;
+}
 
 .header {
     align-items: center;
@@ -26,7 +33,7 @@ body {
 }
 
 .navigation-list{
-    text-decoration: none;
+    list-style: none;
 }
 
 .navigation-items {
@@ -52,8 +59,16 @@ body {
 .section-hero {
     background-color: var(--dark-color);
     color: var(--light-text-color);
+     padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    margin-bottom: 94px;
 }
-
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-bottom: 94px;
+}
 .section-hero-title {
     font-size: 44px;
     font-weight: 900;
@@ -90,6 +105,9 @@ body {
 
 .section-services {
     background-color: var(--light-text-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-bottom: 94px;
 }
 
 .section-services-title {
@@ -101,6 +119,9 @@ body {
 
 .section-team {
     background-color: var(--light-color);
+     padding-top: 94px;
+    padding-bottom: 94px;
+    margin-bottom: 94px;
 }
 
 .section-team-title {
@@ -131,9 +152,12 @@ body {
 .footer {
     background-color: var(--dark-color);
     color: var(--light-text-color);
+     padding-top: 60px;
+    padding-bottom: 60px;
+
 }
 .footer-list{
-    text-decoration: none;
+    list-style: none;
 }
 
 .footer-logo {
