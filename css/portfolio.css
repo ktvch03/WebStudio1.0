@@ -1,34 +1,100 @@
-:root{
-    --dark-color: #2F303A;
-    --light-color: #F5F4FA;
-    --button-color: #2196F3;
-    --text-color: #212121;
-    --light-text-color: #ffffff;
+:root {
+  --dark-color: #2F303A;
+  --light-color: #F5F4FA;
+  --button-color: #2196F3;
+  --text-color: #212121;
+  --light-text-color: #ffffff;
 }
-.header {
-     background-color: var(--light-color);
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--text-color);
+  background-color: var(--light-text-color);
 }
-.navigation {
-     color: var(--text-color);
+
+.portfolio-header-logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+  color: var(--button-color);
 }
-.navigation2 {
-    color: var(--button-color);
+
+.portfolio-nav-list {
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+  color: var(--text-color);
 }
-.button1 {
-    background-color: var(--button-color);
-    color: var(--light-text-color);
+
+.portfolio-nav-link {
+  color: var(--text-color);
 }
-.button2 {
-    background-color: var(--light-text-color);
-    color: var(--text-color);
+
+.portfolio-contacts {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 500;
+  color: var(--text-color);
 }
-.section {
-    color: var(--light-color);
+
+.portfolio-header-contacts a {
+  color: var(--text-color);
 }
+
+.portfolio-button {
+  font-size: 16px;
+  line-height: 1.62;
+  font-weight: 500;
+  color: var(--text-color);
+  background-color: var(--light-color);
+  border: none;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--button-color);
+  color: var(--light-text-color);
+}
+
+.portfolio-project-title {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.portfolio-project-text {
+  font-size: 16px;
+  line-height: 1.87;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
 .footer {
     background-color: var(--dark-color);
+}
+.footer-list{
+    text-decoration: none;
+}
+
+.portfolio-logo {
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--light-text-color);
+    text-decoration: none;
+}
+.portfolio-address {
+    font-size: 14px;
+    line-height: 1.71;
+    font-weight: 400;
     color: var(--light-text-color);
 }
-.list {
-    color: var(--light-text-color);
+.footer-link{
+color: var(--light-text-color);
 }
+

@@ -132,10 +132,14 @@ body {
     background-color: var(--dark-color);
     color: var(--light-text-color);
 }
+.footer-list{
+    text-decoration: none;
+}
 
-.footer-link {
-    font-size: 14px;
-    font-weight: 400;
+.footer-logo {
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
     color: var(--light-text-color);
     text-decoration: none;
 }
@@ -143,4 +147,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     color: var(--light-text-color);
+}
+.footer-link{
+color: var(--light-text-color);
 }
