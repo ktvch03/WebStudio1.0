@@ -65,7 +65,7 @@ box-sizing: border-box;
   gap: 30px;
   align-items: center;
 }
-.section-hero {
+.services {
     background-color: var(--dark-color);
     color: var(--light-text-color);
      padding-top: 200px;
@@ -73,7 +73,7 @@ box-sizing: border-box;
     text-align: center;
     margin-bottom: 94px;
 }
-.section{
+.pluses{
     padding-top: 94px;
     padding-bottom: 94px;
     margin-bottom: 94px;
