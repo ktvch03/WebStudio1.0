@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normatize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/portfolio.css"> 
 </head>
 <body>
   <div class="container">
@@ -22,10 +23,11 @@
       <li><a href="mailto:info@devstudio.com" class="portfolio-contacts">info@devstudio.com</a></li>
       <li><a href="tel:+380961111111" class="portfolio-contacts">+38 096 111 11 11</a></li>
     </ul>
+  </div>
   </header>
   <main>
     <section class="portfolio-section">
-      <h1>Портфоліо</h1>
+      <div class="container">
       <ul class="portfolio-list">
         <li><button type="button" class="portfolio-button">Усі</button></li>
         <li><button type="button" class="portfolio-button">Веб-сайти</button></li>
@@ -33,7 +35,8 @@
         <li><button type="button" class="portfolio-button">Дизайн</button></li>
         <li><button type="button" class="portfolio-button">Маркетинг</button></li>
       </ul>
-
+    </div>
+    <div class="container">
       <ul class="portfolio-projects">
         <li class="portfolio-project">
           <a href="#" class="portfolio-project-link">
@@ -107,9 +110,11 @@
           </a>
         </li>
       </ul>
+    </div>
     </section>
   </main>
    <footer class="footer">
+    <div class="container">
         <ul class="footer-list">
             <li class="footer-item">
                 <a href="/index.html" class="footer-logo">WebStudio</a></li>
@@ -125,6 +130,7 @@
                 <a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a>
             </li>
         </ul>
+      </div>
     </footer>
     </div>
 </body>

@@ -78,12 +78,33 @@ box-sizing: border-box;
     padding-bottom: 94px;
     margin-bottom: 94px;
 }
-.section-list{
+.section-list {
     display: flex;
-  gap: 30px;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: nowrap;
 }
+
+.section-item {
+    width: 270px;
+    text-align: left;
+}
+
+.section-title {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.section-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 1.71;
+}
+
 .section-hero-title {
     font-size: 44px;
     font-weight: 900;
@@ -102,22 +123,6 @@ box-sizing: border-box;
     border: none;
     cursor: pointer;
 }
-
-.section-title {
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--text-color);
-}
-
-.section-text {
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    color: var(--text-color);
-}
-
 .section-services {
     background-color: var(--light-text-color);
     padding-top: 94px;
@@ -153,7 +158,7 @@ box-sizing: border-box;
      display: flex;
   gap: 30px;
   justify-content: space-between;
-  flex-wrap: wrap;
+  
 }
 .section-team-item {
     background-color: var(--light-text-color);

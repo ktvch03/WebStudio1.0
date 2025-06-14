@@ -15,7 +15,7 @@ body {
   background-color: var(--light-text-color);
 }
 .container{
-width: 1200px;
+max-width: 1200px;
 padding: 0 15px;
 margin: 0 auto;
 outline: solid orange;
@@ -97,7 +97,7 @@ box-sizing: border-box;
   color: var(--light-text-color);
 }
 .portfolio-projects {
-display: flex;
+ display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
@@ -105,24 +105,31 @@ display: flex;
   list-style: none;
 }
 .portfolio-project{
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
+  width: 370px;
   background-color: var(--light-text-color);
   border: 1px solid;
 }
-
-.portfolio-project-title {
-   font-size: 18px;
-  font-weight: 700;
-  line-height: 1.5;
+.portfolio-project-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
 }
 
+.portfolio-project-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.portfolio-project-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 20px 24px 4px;
+}
 .portfolio-project-text {
   font-size: 16px;
-  line-height: 1.87;
   font-weight: 400;
-  color: var(--text-color);
+  color: #757575;
+  margin: 0 24px 20px;
 }
 
 .footer {
